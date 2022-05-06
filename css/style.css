@@ -1,3 +1,7 @@
+header {
+    color:blue;
+}
+
 .main-header{
     display: grid;
 }
