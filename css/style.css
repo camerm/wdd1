@@ -1,7 +1,14 @@
 header {
+    background-color:skyblue;
     color:blue;
+    align-items: center;
 }
 
 .main-header{
     display: grid;
+    align-items: center;
+}
+
+footer{
+    background-color:skyblue;
 }
