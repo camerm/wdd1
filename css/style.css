@@ -14,6 +14,8 @@ footer{
 }
 header, main, footer {
     max-width: 630px;
-    justify-content: center;
     align-items: center;
+}
+body {
+    justify-content: center;
 }
