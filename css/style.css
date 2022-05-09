@@ -2,13 +2,9 @@ header {
     background-color:skyblue;
     color:blue;
     align-items: center;
-}
-
-.main-header{
     display: grid;
     align-items: center;
     grid-template-columns: 175px, 1fr;
-    align-items: center;
 }
 
 main {
