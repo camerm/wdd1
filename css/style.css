@@ -2,8 +2,6 @@ header {
     background-color:skyblue;
     color:blue;
     align-items: center;
-    display: grid;
-
 }
 
 .main-header{
@@ -21,4 +19,5 @@ footer{
 }
 header, main, footer {
     max-width: 600px;
+    align-items: center;
 }
