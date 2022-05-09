@@ -3,7 +3,6 @@ header {
     color:blue;
     align-items: center;
     display: grid;
-    align-items: center;
     grid-template-columns: 210px, 1fr;
 }
 
