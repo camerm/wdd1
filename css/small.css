@@ -11,14 +11,34 @@ main {
 }
 footer{
     background-color:skyblue;
+    
 }
 header, main, footer {
     max-width: 630px;
     align-items: center;
 }
 body {
-    justify-content: center;
+    font-size: 16px;
+    justify-items: center;
+
+
 }
+
 h1{
     font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+h3{
+    font-family: 'BIZ UDPGothic', sans-serif;
+    font-size: 0.8rem;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
