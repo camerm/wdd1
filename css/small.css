@@ -1,27 +1,30 @@
+
 header {
     background-color:skyblue;
     color:blue;
     align-items: center;
     display: grid;
-    grid-template-columns: 210px, 1fr;
+    grid-template-columns: 210px 1fr;
 }
 
 main {
     align-items: center;
+
 }
 footer{
-    background-color:skyblue;
-    
+    background-color:skyblue;  
 }
 header, main, footer {
     max-width: 630px;
+    margin: 1.2rem auto;
     align-items: center;
+    justify-items: center;
+    justify-content: center;
 }
 body {
     font-size: 16px;
     justify-items: center;
-
-
+    margin: 5px;
 }
 
 h1{
@@ -37,8 +40,3 @@ h3{
     font-size: 0.8rem;
 }
 
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
