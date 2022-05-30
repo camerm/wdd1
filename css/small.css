@@ -9,10 +9,10 @@ header {
 
 main {
     align-items: center;
-
+    justify-items: center;
 }
 footer{
-    background-color:skyblue;  
+    background-color:skyblue; 
 }
 header, main, footer {
     max-width: 630px;
@@ -38,5 +38,9 @@ h2{
 h3{
     font-family: 'BIZ UDPGothic', sans-serif;
     font-size: 0.8rem;
+}
+
+img {
+    margin: 5px;
 }
 
