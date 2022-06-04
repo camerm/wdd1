@@ -1,0 +1,81 @@
+header{
+    background-color: rgb(46, 182, 236);
+    text-align: center;
+    width: auto;
+    border-radius: 5px;
+}
+
+nav{
+    background-color: rgb(17, 102, 128);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 12px;
+    text-align: center;
+ }
+nav a {
+    color: white;
+ }
+ nav a:hover {
+    background-color: cornflowerblue;
+ }
+footer{
+    background-color: rgb(46, 182, 236);
+    text-align: center;
+    border-radius: 5px;
+    padding: 1px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section{
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+}
+img{
+    max-width: 290px;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    margin: 0px;
+}
+
+.color{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.primary-color{
+    background-color: rgb(46, 182, 236);
+    margin: 15px;
+    padding: 15px;
+}
+.secondary-color{
+    background-color:cornflowerblue;
+    margin: 15px;
+    padding: 15px;
+}
+.terciary-color{
+    background-color: rgb(243, 168, 97);
+    margin: 15px;
+    padding: 15px;
+}
+.navigation-color{
+    background-color: rgb(17, 102, 128);
+    margin: 15px;
+    padding: 15px;
+}
+
+.typografhy{
+    margin: 25px;
+    padding: 25px;
+}
