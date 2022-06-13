@@ -1,0 +1,34 @@
+
+
+image{
+    width: 30;
+}
+
+
+
+header{
+    display: grid;
+    background-color: rgba(1, 13, 122, 0.938);
+}
+header h1, h2, h3, p{
+    color:aqua;
+}
+
+main{
+    display: grid;
+}
+main h2{
+    color: black;
+}
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(1, 13, 122, 0.938);
+}
+footer h1, h2, h3, p{
+    color:aqua;
+}
