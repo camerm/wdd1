@@ -8,10 +8,11 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    prophets.forEach(displayProphets); 
+    prophets.forEach(displayProphets);
 });
 
-  const prophets = jsonObject['prophets'];
+  
+const prophets = jsonObject['prophets'];
 
 
   function displayProphets(prophet) {
