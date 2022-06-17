@@ -8,6 +8,8 @@ image{
 
 header{
     display: grid;
+    grid-template-columns: 1fr 1fr 2fr 0.5fr;
+    grid-template-rows: auto;
     background-color: rgba(1, 13, 122, 0.938);
 }
 header h1, h2, h3, p{
