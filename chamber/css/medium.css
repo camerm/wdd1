@@ -32,8 +32,14 @@ nav ul li {
 .navigation a.ham::before {
 	content: "🍔 ";
 }
+
 .navigation li {
 	display: none;
+}
+main div{
+    margin:0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(229, 240, 243);
 }
 
 footer{

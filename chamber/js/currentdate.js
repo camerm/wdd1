@@ -32,7 +32,7 @@ const fulldate = `${dayName}, ${monthName} ${d.getDate()} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
 
 
-/*** Hamburger menu  */
+/*** ---------------------Hamburger menu--------------  */
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
 

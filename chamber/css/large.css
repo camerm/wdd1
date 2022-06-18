@@ -7,24 +7,26 @@
 .social img{
     max-width: 30px;
 }
-nav ul li {
-    list-style:none;
-}
+
 header{
     grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
     grid-template-rows: auto;
 }
 
-nav ul{
-    display: flex;
+.navigation li{
+    display: inline;
+}
+.navigation li:first-child {
+	display: none;
+}
+.navigation a.ham::before {
+	content: "🍔 ";
 }
 nav ul a{
     color: aqua;
     margin: 12px;
 }
-.navigation li:first-child {
-	display: none;
-}
+
 .date{
     grid-column: 1/5;
     grid-row: 2/3;
@@ -39,6 +41,45 @@ nav{
     grid-column: 3/4;
     grid-row: 1/2;
 }
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:0.25rem;
+    background-color: rgb(255, 255, 255);
+}
+main div{
+    margin:0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(229, 240, 243);
+}
+.even{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.weather{
+    grid-column: 1/2;
+    grid-row: 2/3; 
+}
+.join{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.hero{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+.news{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.spotligth{
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+
 
 footer{
     grid-template-columns: 1fr 1fr;
