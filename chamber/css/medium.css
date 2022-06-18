@@ -22,7 +22,20 @@ header{
 .date{
     grid-column: 1/5;
     grid-row: 2/3;
-}    
+}
+nav ul li {
+    list-style:none;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation a.ham::before {
+	content: "🍔 ";
+}
+.navigation li {
+	display: none;
+}
+
 footer{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;

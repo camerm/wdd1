@@ -4,7 +4,6 @@
     grid-row: 1/2;
 }
 
-
 header{
     grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
     grid-template-rows: auto;
@@ -44,7 +43,20 @@ header h1, h2, h3, p{
 }
 nav{
     justify-self: center;
-    align-self: center; 
+    align-self: center;
+}
+.navigation ul div:first-child {
+	display: block;
+}
+.navigation a.ham::before {
+	content: "🍔 ";
+}
+.navigation a{
+    padding: 0.75em;
+}
+.navigation a:hover {
+	color: white;
+	background-color: rgb(10, 7, 53);
 }
 .date{
     text-align: center;
