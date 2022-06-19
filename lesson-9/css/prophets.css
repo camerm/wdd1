@@ -1,3 +1,28 @@
-.cards{
-    display: flex;
+body{
+    background-color: azure;
+}
+header{
+    text-align: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 10px;
+}
+.cards section{
+    height: fit-content;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 3px 3px rgba(64, 97, 97, 0.445);
+    align-items: center;
+}
+.cards img{
+    max-width: 100%;
+}
+h2, p{
+    text-align: center;
+    margin: 4;
+}
+footer{
+    text-align: center;
 }
