@@ -80,7 +80,7 @@ main{
 main div{
     margin:0.5rem;
     padding: 0.5rem;
-    background-color: rgb(229, 240, 243);
+    background-color: rgb(236, 242, 243);
 }
 main h2{
     color: black;
@@ -107,4 +107,54 @@ footer h1, h2, h3, p{
     align-self: center;
     justify-self: center;
     text-align: center;
+}
+
+  /* ==============================Directory Page================================ */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.cards section{
+    height: fit-content;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 3px 3px rgba(117, 143, 143, 0.445);
+}
+.cards img{
+    max-width: 80%;
+    height: 175px;
+	max-width: 170%; /* Images are jerks - Seattle*/
+}
+.cards h2, p{
+    color:black;
+}
+.menuCards {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+}
+.menuCards button {
+	padding: 1rem;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+.list section {
+	display: flex;
+	align-items: center;
+}
+.list section img {
+	display: none; /* smaller viewports only */
+}
+.list section {
+	flex-direction: row;
+	justify-content: left;
 }

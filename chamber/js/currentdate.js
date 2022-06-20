@@ -30,6 +30,7 @@ const year = d.getFullYear();
 const fulldate = `${dayName}, ${monthName} ${d.getDate()} ${year}`;
 // using getElementById
 document.getElementById("currentdate").textContent = fulldate;
+document.getElementById("lastupdate").textContent = fulldate;
 
 
 /*** ---------------------Hamburger menu--------------  */
