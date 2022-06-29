@@ -1,0 +1,28 @@
+
+body {
+
+    text-align: center;
+    text-justify: center;
+}
+.page {
+    max-width: 500px;
+}
+
+.display {
+    margin: 1rem 0 1rem 0.5rem;
+}
+
+.box {
+    margin:1rem 0;
+    border: 1px solid rgb(243, 237, 237); 
+    padding: 0.5rem;
+    background-color: rgb(244, 251, 252);
+}
+
+.codetext {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#events {
+    list-style: none;
+}
