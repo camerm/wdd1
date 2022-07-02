@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script defer src="js/currentdate.js"></script>
+    <script defer src="js/weather.js" defer></script>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -41,7 +42,14 @@
                 <h2>event</h2>
             </div>
             <div class="weather">
-                <h2>weather</h2>
+                <h1>Weather</h1>
+                <h1><span id="current-temp"></span> &deg;C</h1>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+                <p>Wind Speed:<span id="wind"></span> Km/h</p>
+                <p>Wind chill:<span id="wind-chill"></span> N/A</p>
             </div>
             <div class="join">
                 <h2>join</h2>

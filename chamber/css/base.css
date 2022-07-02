@@ -158,3 +158,9 @@ footer h1, h2, h3, p{
 	flex-direction: row;
 	justify-content: left;
 }
+
+  /* ==============================Weather box================================ */
+
+.weather {
+    text-align: center;
+}
