@@ -30,6 +30,21 @@ header{
 .hero img{
     max-width: 100%;
 }
+.spotligth img{
+    max-width: 50%;
+}
+.spotligth{
+    text-align: center;
+}
+.join{
+    text-align: center;
+}
+.news{
+    text-align: center;
+}
+.event{
+    text-align: center;
+}
 header{
     display: grid;
     background-color: rgba(1, 13, 122, 0.938);
