@@ -97,7 +97,7 @@ main div{
     padding: 0.5rem;
     background-color: rgb(236, 242, 243);
 }
-main h2{
+main h2, h3, h1, p{
     color: black;
 }
 
@@ -105,9 +105,10 @@ footer{
     display: grid;
     background-color: rgba(1, 13, 122, 0.938);
 }
-footer h1, h2, h3, p{
+footer p, h1, h2, h3{
     color:aqua;
 }
+
 .chambername{
     align-self: center;
     justify-self: center;
@@ -178,4 +179,26 @@ footer h1, h2, h3, p{
 
 .weather {
     text-align: center;
+}
+  /* ==============================Join Page================================ */
+form{
+    margin: 0 auto;
+    max-width: 500px;
+}
+main.join{
+    background-color: #D5ECD4;
+}
+hr{
+    margin: 0 auto;
+    max-width: 500px;   
+}
+main.join h2{
+    margin-top: 1.5rem;
+}
+form fieldset {
+    margin: 1.2rem 0.2rem;
+    border: 1px solid #1C211D;
+    border-radius: 8px;
+    padding: 0.5rem 2%;
+    background-color: #D5ECD4;
 }

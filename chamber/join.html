@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Page</title>
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <script defer src="js/currentdate.js"></script>
+    <script defer src="js/join.js" defer></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div class="logo-picture"> <img src="image/logo.jpg" alt="my-logo" width="100">
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="image/facebook.logo.png" alt="facebook.logo" width="50"></a>
+            <a href="https://www.youtube.com/"><img src="image/youtube.logo.png"  alt="youtube.logo" width="50"></a>
+        </div>
+        <div class="chamber">
+            <h1>AQP - LAND</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <p class="date">Current date: <span id="currentdate"></span></p>
+        <script src="js/currentdate.js"></script>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="target-audience.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="typography.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="join">
+        <div class="introduction">
+            <h2>Aplication form: Welcome!</h2>
+            <hr>
+            <h3>Field with '*' are required</h3>
+        </div>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>General information</legend>
+               <label class="top"> First Name* <input type="text" name="fname" required> </label>
+               <label class="top"> Last Name* <input type="text" name="lname" required> </label>
+               <label class="top"> Email* <input type="email" name="email" placeholder="example@gmail.com" required> </label>
+               <label class="top"> Phone* <input type="tel" name="phone" placeholder="1234567890" required> </label>
+            </fieldset>
+            <fieldset>
+                <legend>business information</legend>
+                <label class="top"> Business Position <input type="text" name="business-position" id="businessPosition" pattern="[a-zA-Z0-9- ]{7,}"> </label>
+                <label class="top"> Business Name/Title* <input type="text" name="business-name" required> </label>
+                <label class="top"> Business Description <textarea name="description"></textarea> </label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership level</legend>
+                <label class="sbs"><input type="radio" name="membership" value="np-membership"> NP Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze-membership"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver-membership"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold-membership"> Gold Member</label>
+            </fieldset>
+            <input type="hidden" id="date-time" name="date-time" value="CurrentTime">
+            <input type="submit" value="Join the Chamber" class="submitBtn">
+        </form>
+        <div class="benefits">
+            <h3>Membership benefits</h3>
+            <p>Non-Profit - Free</p>
+            <ul>
+                <li> Exchange ideas with other affiliates through our monthly meeting</li>
+                <li>Opportunities to get credit for your business</li>
+            </ul>    
+            <p>Bronze Benefits - S/.200</p>
+            <ul>
+                <li>Receive our monthly magazine with ideas for your business</li>
+                <li>Partake in our semestral fair to expose your business and your products</li>
+                <li>10% discount in our selected stores</li>
+            </ul>
+            <p>Silver Benefits - S/.400</p>
+            <ul>
+                <li>Publicity of your business and products in our magazine</li>
+                <li>15% discount in our selected stores</li>
+                <li>Monthly capacitation for you and your employers about sell technics</li>
+            </ul>
+            <p>Gold Benefits - S/.600</p>
+            <ul>
+                <li>Publicity on our website</li>
+                <li>16% discount in our selected stores</li>
+                <li>Capacitation in Quality, Health, Safety & Environment</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div Class="chambername">
+            <img src="image/logo.jpg" alt="my-logo" width="80">
+            <div>
+                <p>AQP - LAND</p>
+                <p>av. Salaverry 308</p>
+                <p>Cercado - Arequipa, Peru</p>
+            </div>
+        </div>
+        <div class="contact">
+            <p>info@aqpland.com</p>
+            <p>+(51) 254337</p>
+            <p><a href="https://www.google.com/maps/place/Plaza+de+Armas+de+Arequipa/@-16.3991223,-71.5389012,17z/data=!4m5!3m4!1s0x91424a59ffae2999:0xc419f49d1f9cd270!8m2!3d-16.3988084!4d-71.5369056?hl=es-419">Location Map</a></p>
+        </div>
+        <div class="autor">
+            <p> &copy; 2022 AQP-Land Chamber</p>
+            <p>Oliverio Cameron</p>
+            <p>WDD 230 Project</p>
+            <p>Last Update: <span id="lastupdate"></span></p>
+            <script src="js/currentdate.js"></script>
+        </div>
+    </footer>
+</body>
+</html>
