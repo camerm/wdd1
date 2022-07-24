@@ -105,5 +105,26 @@ footer{
     display: inline;
     margin: 1%;  
 }
+
+ /* ============================== Discover ================================ */
+
+ .discover{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+.discover div:nth-of-type(2){
+    grid-row: 1/3;
+}
+.discover div:nth-of-type(2) img{
+    width: 200px;
+}
+.discover div:nth-of-type(2) img{
+    float: left;
+    margin: 0 15px 15px 0;
+}
+.discover div:nth-of-type(2) h3{
+    clear: both;
+}
+}
+
 

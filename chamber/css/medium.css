@@ -67,4 +67,9 @@ footer{
     margin: 1%;  
 }
 
+.discover div:nth-of-type(2) img:hover{
+    box-shadow: 0 0 50px #555;
 }
+
+}
+

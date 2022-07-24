@@ -186,7 +186,7 @@ form{
     max-width: 500px;
 }
 main.join{
-    background-color: #D5ECD4;
+    background-color: #bce7ed;
 }
 hr{
     margin: 0 auto;
@@ -201,4 +201,43 @@ form fieldset {
     border-radius: 8px;
     padding: 0.5rem 2%;
     background-color: #D5ECD4;
+}
+
+  /* ============================== Discover ================================ */
+.discover div{
+    background-color: #D5ECD4;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    border: 1px #A1B0AB solid;
+}
+.discover h2{
+    margin: 10px;
+}
+
+.discover picture ~ p {
+    margin: 25px;
+} 
+
+.discover picture{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.discover div:nth-of-type(1) img{
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    border: 2px #A1B0AB solid;
+}
+.discover div:nth-of-type(2) img{
+    border: 1px #A1B0AB solid;
+}
+
+.discover div:nth-of-type(1) div{
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
